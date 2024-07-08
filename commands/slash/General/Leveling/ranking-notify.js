@@ -6,20 +6,20 @@ const {
 const NotifySchema = require("../../../../Schemas/NotifySchema");
 
 module.exports = {
-    name: "ranking-notify", // Name of command
-    description: "🔍 Setup a channel to notify when a user levels up.", // Command description
-    type: 1, // Command type
+    name: "ranking-notify",
+    description: "🔍 Setup a channel to notify when a user levels up.",
+    type: 1,
 
     options: [
         {
             name: "set",
             description: "Set a channel to notify when a user levels up.",
-            type: 1, // Subcommand type (1 corresponds to SUB_COMMAND type)
+            type: 1,
             options: [
                 {
                     name: "channel",
                     description: "Channel to notify when a user levels up.",
-                    type: 7, // Subcommand option type (7 corresponds to CHANNEL type)
+                    type: 7,
                     required: true,
                 },
             ],
@@ -27,7 +27,7 @@ module.exports = {
         {
             name: "remove",
             description: "Remove a channel to notify when a user levels up.",
-            type: 1, // Subcommand type (1 corresponds to SUB_COMMAND type)
+            type: 1, 
         },
     ],
 

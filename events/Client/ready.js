@@ -28,9 +28,9 @@ client.on("messageCreate", async (message) => {
     ) {
       // Add reactions in a certain order
       try {
-        await message.react("☀️"); // Replace with your desired emoji
-        await message.react("🌕"); // Replace with your desired emoji
-        await message.react("⭐"); // Replace with your desired emoji
+        await message.react("☀️");
+        await message.react("🌕");
+        await message.react("⭐");
         await message.react("<:gold_star:1097317986081193995>");
       } catch (err) {
         console.error(`Failed to add reactions: ${err}`);

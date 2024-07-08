@@ -7,15 +7,15 @@ const UserLevel = require("../../../../Schemas/UserLevel");
 const { profileImage } = require("discord-arts");
 
 module.exports = {
-    name: "level", // Name of command
-    description: "🔍 View your or another member´s level and exp progress", // Command description
-    type: 1, // Command type
+    name: "level",
+    description: "🔍 View your or another member´s level and exp progress",
+    type: 1,
 
     options: [
         {
             name: "member",
             description: "Member which you'd like to view",
-            type: 6, // Subcommand option type (6 corresponds to USER type)
+            type: 6,
         },
     ],
 

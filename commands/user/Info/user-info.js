@@ -36,7 +36,7 @@ module.exports = {
         };
 
         // Acknowledgements handler:
-        // L for Dyno developers
+        
         const acknowledgements = {
             fetch: {
                 user(userInput) {
