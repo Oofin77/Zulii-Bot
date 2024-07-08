@@ -1,0 +1,17 @@
+{
+  "discord": {
+    "token": "",
+    "client": {
+      "id": "978781532657430609",
+      "secret": " "
+    }
+  },
+  "dbd": {
+    "port": 3000,
+    "domain": "https://zulii-bot2.glitch.me:3000",
+    "redirectUri": "/discord/callback",
+    "license": "90f6d447-7bfa-4328-bfde-ef9fd3ff4a7f",
+    "ownerIDs": ["618568224463650834"]
+  }
+  
+}
